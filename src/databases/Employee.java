@@ -5,7 +5,12 @@ public class Employee {
     private String empName;
     private String empID;
     private String empDOB;
-
+    public static void main (String[] args){  
+        Employee raji = new Employee("Raji", "2762", "16-07-1995");
+        System.out.println(raji.getEmpName());
+        System.out.println(raji.getEmpID());
+        System.out.println(raji.getEmpDOB());
+        
     public Employee(){}
     public Employee(String empName, String empID, String empDOB) {
         this.empName = empName;
@@ -35,4 +40,5 @@ public class Employee {
     public void setEmpDOB(String empDOB) {
         this.empDOB = empDOB;
     }
+}
 }

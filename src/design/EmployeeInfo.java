@@ -1,4 +1,4 @@
-package design;
+package MidtermJanuary2021.src.design;
 
 import java.util.Scanner;
 
@@ -32,6 +32,49 @@ public class EmployeeInfo {
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
 	 */
+	private int Emp_id;
+
+	private String Emp_name;
+
+	private int Emp_age;
+
+	public EmployeeInfo() {
+
+	}
+
+	public int getid() {
+
+		return Emp_id;
+	}
+	public void setid(){
+
+		this.Emp_id=Emp_id;
+
+	}
+
+	public String getname(){
+
+		return Emp_name;
+
+	}
+
+	public void setname(){
+
+		this.Emp_name=Emp_name;
+
+	}
+
+	public int getage(){
+
+		return Emp_age;
+
+	}
+
+	public void setage(){
+
+		this.Emp_age=Emp_age;
+
+	}
 	public EmployeeInfo(int employeeId){
 		
 	}

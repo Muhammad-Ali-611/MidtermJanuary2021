@@ -1,4 +1,4 @@
-package string.problems;
+package MidtermJanuary2021.src.string.problems;
 
 import java.util.HashMap;
 import java.util.Iterator;

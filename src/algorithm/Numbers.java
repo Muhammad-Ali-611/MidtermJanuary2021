@@ -1,6 +1,6 @@
-package algorithm;
+package MidtermJanuary2021.src.algorithm;
 
-import databases.ConnectToSqlDB;
+import MidtermJanuary2021.src.databases.ConnectToSqlDB;
 
 import java.util.List;
 import java.util.Random;
@@ -41,30 +41,26 @@ public class Numbers {
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
 		connectToSqlDB.insertDataFromArrayToSqlTable(num, "insertion_sort", "SortingNumbers");
 		List<String> insertionSortNumbers = connectToSqlDB.readDataBase("insertion_sort", "SortingNumbers");
-		printValue(insertionSortNumbers);
-		//By following above, Continue for rest of the Sorting Algorithm....
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-		//Come to conclusion about which Sorting Algo is better in given data set of 1000000.
+	printValue(insertionSortNumbers) {
 
 	}
+	//By following above, Continue for rest of the Sorting Algorithm....
+
+		randomize(num, n);
+         //bubble Sort
+		algo.bubbleSort(num);
+		long bubbleSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
+
+	}
+	//Come to conclusion about which Sorting Algo is better in given data set of 1000000.
+
 
 	public static void storeRandomNumbers(int [] num){
 		Random rand = new Random();
 		for(int i=0; i<num.length; i++){
-			num[i] = rand.nextInt(100);
+			num[i] = rand.nextInt(1000000);
 		}
 	}
 

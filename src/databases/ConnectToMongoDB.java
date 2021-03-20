@@ -1,12 +1,12 @@
-package databases;
+package MidtermJanuary2021.src.databases;
 
+import MidtermJanuary2021.src.parser.Student;
 import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
-import parser.Student;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +38,7 @@ public class ConnectToMongoDB {
         return profile + " has been registered";
     }
 
-    public String insertIntoMongoDB(List<Student> student,String profileName){
+    public String insertIntoMongoDB(List<Student> student, String profileName){
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection myCollection = mongoDatabase.getCollection(profileName);
         boolean collectionExists = mongoDatabase.listCollectionNames()

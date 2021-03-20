@@ -1,4 +1,4 @@
-package json.parser;
+package MidtermJanuary2021.src.json.parser;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

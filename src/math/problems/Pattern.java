@@ -1,4 +1,4 @@
-package math.problems;
+package MidtermJanuary2021.src.math.problems;
 
 public class Pattern {
 

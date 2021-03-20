@@ -1,6 +1,8 @@
-package databases;
+package MidtermJanuary2021.src.databases;
 
-import parser.Student;
+
+
+import MidtermJanuary2021.src.parser.Student;
 
 import java.io.FileInputStream;
 import java.io.IOException;

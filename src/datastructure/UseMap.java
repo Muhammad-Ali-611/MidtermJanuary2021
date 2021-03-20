@@ -1,4 +1,4 @@
-package datastructure;
+package MidtermJanuary2021.src.datastructure;
 
 public class UseMap {
 

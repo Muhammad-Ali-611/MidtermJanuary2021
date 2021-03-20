@@ -1,7 +1,6 @@
-package parser;
+package MidtermJanuary2021.src.parser;
 
-import databases.ConnectToMongoDB;
-import databases.ConnectToSqlDB;
+import MidtermJanuary2021.src.databases.ConnectToMongoDB;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;

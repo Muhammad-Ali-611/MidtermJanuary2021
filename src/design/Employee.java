@@ -1,4 +1,4 @@
-package design;
+package MidtermJanuary2021.src.design;
 
 public interface Employee {
 	

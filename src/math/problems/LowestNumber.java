@@ -1,6 +1,6 @@
-package math.problems;
+package MidtermJanuary2021.src.math.problems;
 
-import databases.ConnectToSqlDB;
+import MidtermJanuary2021.src.databases.ConnectToSqlDB;
 
 import java.util.ArrayList;
 import java.util.List;

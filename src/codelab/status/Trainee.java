@@ -1,4 +1,4 @@
-package codelab.status;
+package MidtermJanuary2021.src.codelab.status;
 
 public class Trainee implements Comparable<Trainee> {
 

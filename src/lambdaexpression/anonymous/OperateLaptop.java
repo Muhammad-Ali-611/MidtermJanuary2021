@@ -1,4 +1,4 @@
-package lambdaexpression.anonymous;
+package MidtermJanuary2021.src.lambdaexpression.anonymous;
 
 public class OperateLaptop {
 

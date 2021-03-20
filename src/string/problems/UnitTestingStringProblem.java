@@ -1,4 +1,4 @@
-package string.problems;
+package MidtermJanuary2021.src.string.problems;
 
 public class UnitTestingStringProblem {
     public static void main(String[] args) {

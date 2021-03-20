@@ -1,4 +1,4 @@
-package string.problems;
+package MidtermJanuary2021.src.string.problems;
 
 /**
  * Created by mrahman on 04/22/17.

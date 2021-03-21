@@ -178,9 +178,15 @@ public class Sort {
 
 
             }
-        }
 
+    private void heapSort(int[] arr) {
     }
+
+    private void printSortedArray(int[] arr) {
+        return;
+    }
+}
+
 
 
 
